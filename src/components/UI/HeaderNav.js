@@ -8,7 +8,7 @@ export const HeaderNav = () => {
             <Container>
                 <Link to={`/`}className="navbar-brand">
                     <img
-                        src="./assets/logo.png"
+                        src="/assets/logo.png"
                         width="132"
                         height="64"
                         className="d-inline-block align-top"

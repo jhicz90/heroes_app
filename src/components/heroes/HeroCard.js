@@ -7,7 +7,7 @@ export const HeroCard = ({
     publisher,
     alter_ego,
     first_appearance,
-    characters,
+    characters
 }) => {
     return (
         <div className="col">

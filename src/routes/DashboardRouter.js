@@ -9,14 +9,14 @@ export const DashboardRouter = () => {
     return (
         <>
             <HeaderNav />
-            <div className="container-fluid">
+            <div className="container">
                 <Switch>
                     <Route exact path="/">
                         <h1>Bienvenidos a HEROES APP</h1>
                     </Route>
                     <Route exact path="/marvel" component={MarvelScreen} />
                     <Route exact path="/dc" component={DcScreen} />
-                    <Route exact path="/heroe/:hero_id" component={HeroScreen} />
+                    <Route exact path="/hero/:heroId" component={HeroScreen} />
                     <Redirect to="/" />
                 </Switch>
             </div>
