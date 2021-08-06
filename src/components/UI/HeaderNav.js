@@ -25,6 +25,7 @@ export const HeaderNav = () => {
                         <NavLink to={`/`} exact className="nav-link" activeClassName="active">ASOCIACIONES</NavLink>
                         <NavLink to={`/marvel`} exact className="nav-link" activeClassName="active">MARVEL</NavLink>
                         <NavLink to={`/dc`} exact className="nav-link" activeClassName="active">DC</NavLink>
+                        <NavLink to={`/search`} exact className="nav-link" activeClassName="active">BUSCAR</NavLink>
                     </Nav>
                     <Nav>
                         <NavLink to={`/login`} exact className="nav-link" activeClassName="active">Cerrar sesión</NavLink>
