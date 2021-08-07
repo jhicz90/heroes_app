@@ -10,8 +10,7 @@ export const HeaderNav = () => {
     const history = useHistory()
 
     const handleLogout = () => {
-        history.replace('/')
-
+        history.replace('/login')
         dispatch({
             type: types.logout
         })
