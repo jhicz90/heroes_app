@@ -4,6 +4,8 @@ import { Link, NavLink, useHistory } from 'react-router-dom'
 import { AuthContext } from '../../auth/AuthContext'
 import { types } from '../../types/types'
 
+import logo from '../../assets/logo.png'
+
 export const HeaderNav = () => {
 
     const { user_login, dispatch } = useContext(AuthContext)
@@ -21,7 +23,7 @@ export const HeaderNav = () => {
             <Container>
                 <Link to={`/`} className="navbar-brand">
                     <img
-                        src="/assets/logo.png"
+                        src={logo}
                         width="132"
                         height="64"
                         className="d-inline-block align-top"
